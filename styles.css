@@ -23,6 +23,19 @@ p{
 
 }
 
+.start{
+  margin-bottom: 20px;
+  border: 5px solid #011F3F;
+  height: 4rem;
+  width: 9.5rem;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #FEF2BF;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
