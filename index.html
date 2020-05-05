@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="rules">
+    <h2 class="rules_heading">RULES:-</h2>
+    <p>1. Simon will give the first signal. Repeat the signal by Pressing the same colour block.</p>
+    <p>2. Simon will add one more signal. Now you have to press the previous colour blocks with proper sequence and then the last signal given by Simon.</p>
+    <p>3. Continue playing as long as you can repeat these colour signals.</p>
+    <p>4. If you fail to repeat then Simon will give a RAZZ sound. You have to start over again</p>
+  </div>
+
+  <footer>
+    <div class="foot">
+      <p class="footer-text">© Copyright 2020 SRS</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
