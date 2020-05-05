@@ -17,8 +17,15 @@ $(document).keypress(function(){
         $("#level-title").html("Level "+level);
         nextSequence();
         started=true;
+    }    
+});
+
+$(document).click(function(){
+    if(!started){
+        $("#level-title").html("Level "+level);
+        nextSequence();
+        started=true;
     }
-    
 });
 
 function nextSequence(){
